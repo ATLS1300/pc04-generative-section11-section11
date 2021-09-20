@@ -42,16 +42,16 @@ sq2.hideturtle()
 sq3.hideturtle()
 
 #color lists
-alabaster = (236, 235, 228)
+Caputmortuum = (86, 44, 44)
 tuscany = (204, 153, 141)
 seagreencrayola = (22, 244, 208)
 cadetblue = (66, 158, 166)
 indigodye = (21, 59, 80)
-colorlist = [alabaster, tuscany, seagreencrayola, cadetblue, indigodye]
+colorlist = [Caputmortuum, tuscany, seagreencrayola, cadetblue, indigodye]
 
 #looping
 sq1.penup()
-for r in range (20):
+for r in range (40):
     locationx = random.randint(-350,350) #random cordinates
     locationy = random.randint(-350,350)
     sq1.goto(locationx, locationy)
@@ -61,7 +61,7 @@ for r in range (20):
 
 #looping      
 sq2.penup()    
-for r in range (40):
+for r in range (60):
     locationx = random.randint(-350,350) #random cordinates
     locationy = random.randint(-350,350)
     sq2.goto(locationx, locationy)
@@ -71,7 +71,7 @@ for r in range (40):
 
 #looping    
 sq3.penup()
-for r in range (60):
+for r in range (40):
     locationx = random.randint(-350,350) #random cordinates
     locationy = random.randint(-350,350)
     sq3.goto(locationx, locationy)
